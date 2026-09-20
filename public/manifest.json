@@ -1,0 +1,62 @@
+{
+  "id": "/",
+  "name": "OmniCalc Compliance Suite",
+  "short_name": "OmniCalc",
+  "description": "Precision calculation & currency suite with TILA compliance, IEEE 754 precision, and cryptographic audit seals.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a",
+  "categories": ["finance", "utilities", "productivity", "business"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scientific Calculator",
+      "short_name": "Calculator",
+      "description": "Open IEEE-754 precision scientific calculator",
+      "url": "/#calculator",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Loan Amortization",
+      "short_name": "Loans",
+      "description": "Truth-in-Lending Act (TILA) amortization schedules",
+      "url": "/#loan",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Currency Converter",
+      "short_name": "Currency",
+      "description": "Live multi-currency parity matrix converter",
+      "url": "/#converter",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

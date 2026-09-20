@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="108" fill="#0f172a"/>
+  <rect x="24" y="24" width="464" height="464" rx="88" fill="none" stroke="#10b981" stroke-width="8" opacity="0.3"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Screen element -->
+  <rect x="80" y="80" width="352" height="100" rx="18" fill="#1e293b" stroke="#334155" stroke-width="4"/>
+  <text x="400" y="148" fill="#10b981" font-family="monospace" font-size="44" font-weight="bold" text-anchor="end">3.14159265</text>
+  
+  <!-- Calculator Key Matrix -->
+  <!-- Row 1 -->
+  <rect x="80" y="210" width="76" height="64" rx="14" fill="#334155"/>
+  <text x="118" y="252" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="26" font-weight="600" text-anchor="middle">C</text>
+  
+  <rect x="172" y="210" width="76" height="64" rx="14" fill="#334155"/>
+  <text x="210" y="252" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="26" font-weight="600" text-anchor="middle">±</text>
+  
+  <rect x="264" y="210" width="76" height="64" rx="14" fill="#334155"/>
+  <text x="302" y="252" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="26" font-weight="600" text-anchor="middle">%</text>
+  
+  <rect x="356" y="210" width="76" height="64" rx="14" fill="url(#glow)"/>
+  <text x="394" y="252" fill="#ffffff" font-family="system-ui, sans-serif" font-size="30" font-weight="bold" text-anchor="middle">÷</text>
+
+  <!-- Row 2 -->
+  <rect x="80" y="290" width="76" height="64" rx="14" fill="#1e293b"/>
+  <text x="118" y="332" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="26" font-weight="500" text-anchor="middle">7</text>
+  
+  <rect x="172" y="290" width="76" height="64" rx="14" fill="#1e293b"/>
+  <text x="210" y="332" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="26" font-weight="500" text-anchor="middle">8</text>
+  
+  <rect x="264" y="290" width="76" height="64" rx="14" fill="#1e293b"/>
+  <text x="302" y="332" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="26" font-weight="500" text-anchor="middle">9</text>
+  
+  <rect x="356" y="290" width="76" height="64" rx="14" fill="url(#glow)"/>
+  <text x="394" y="332" fill="#ffffff" font-family="system-ui, sans-serif" font-size="30" font-weight="bold" text-anchor="middle">×</text>
+
+  <!-- Row 3 & Equals -->
+  <rect x="80" y="370" width="76" height="64" rx="14" fill="#1e293b"/>
+  <text x="118" y="412" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="26" font-weight="500" text-anchor="middle">4</text>
+  
+  <rect x="172" y="370" width="76" height="64" rx="14" fill="#1e293b"/>
+  <text x="210" y="412" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="26" font-weight="500" text-anchor="middle">5</text>
+  
+  <rect x="264" y="370" width="76" height="64" rx="14" fill="#1e293b"/>
+  <text x="302" y="412" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="26" font-weight="500" text-anchor="middle">6</text>
+  
+  <rect x="356" y="370" width="76" height="64" rx="14" fill="url(#grad)"/>
+  <text x="394" y="412" fill="#ffffff" font-family="system-ui, sans-serif" font-size="34" font-weight="bold" text-anchor="middle">=</text>
+</svg>

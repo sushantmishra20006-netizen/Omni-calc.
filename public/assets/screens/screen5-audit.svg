@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bodyGrad5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="cardGrad5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="shadow5" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Phone Bezel & Outer Frame -->
+  <rect x="10" y="10" width="380" height="780" rx="44" fill="#1e293b" stroke="#334155" stroke-width="4" filter="url(#shadow5)" />
+  <rect x="18" y="18" width="364" height="764" rx="36" fill="url(#bodyGrad5)" />
+
+  <!-- Status Bar -->
+  <circle cx="200" cy="36" r="5" fill="#000" />
+  <rect x="160" y="32" width="80" height="8" rx="4" fill="#020617" />
+  <text x="45" y="40" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">9:41</text>
+  <text x="345" y="40" fill="#10b981" font-family="system-ui, sans-serif" font-size="11" font-weight="600">100%</text>
+
+  <!-- App Header -->
+  <rect x="30" y="56" width="340" height="42" rx="10" fill="#1e293b" opacity="0.6" />
+  <text x="42" y="82" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="14" font-weight="700">OmniCalc™</text>
+  <text x="130" y="82" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Audit Trail & Proof</text>
+  <rect x="290" y="65" width="70" height="24" rx="6" fill="#10b981" opacity="0.2" />
+  <text x="302" y="81" fill="#34d399" font-family="system-ui, sans-serif" font-size="10" font-weight="700">SHA-256</text>
+
+  <!-- Audit Summary Stats -->
+  <g transform="translate(30, 110)">
+    <rect x="0" y="0" width="105" height="72" rx="12" fill="url(#cardGrad5)" stroke="#334155" />
+    <text x="12" y="22" fill="#64748b" font-family="sans-serif" font-size="9" font-weight="600">VERIFIED LOGS</text>
+    <text x="12" y="52" fill="#34d399" font-family="monospace" font-size="24" font-weight="700">100%</text>
+
+    <rect x="117" y="0" width="105" height="72" rx="12" fill="url(#cardGrad5)" stroke="#334155" />
+    <text x="129" y="22" fill="#64748b" font-family="sans-serif" font-size="9" font-weight="600">ERROR DRIFT</text>
+    <text x="129" y="52" fill="#38bdf8" font-family="monospace" font-size="22" font-weight="700">0.0000</text>
+
+    <rect x="234" y="0" width="106" height="72" rx="12" fill="url(#cardGrad5)" stroke="#334155" />
+    <text x="246" y="22" fill="#64748b" font-family="sans-serif" font-size="9" font-weight="600">LEGAL SEAL</text>
+    <text x="246" y="52" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="700">ACTIVE</text>
+  </g>
+
+  <!-- Certificate Box -->
+  <rect x="30" y="196" width="340" height="155" rx="16" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+  <g transform="translate(45, 212)">
+    <text x="0" y="14" fill="#34d399" font-family="sans-serif" font-size="12" font-weight="700">CERTIFICATE OF AUDIT RECORD</text>
+    <text x="0" y="32" fill="#94a3b8" font-family="monospace" font-size="10">ID: CERT-CALC-8B39F1A2-BASELINE-01</text>
+    <text x="0" y="48" fill="#94a3b8" font-family="sans-serif" font-size="10">Title: Baseline 30-Year Mortgage $350k @ 6.25% APR</text>
+    <text x="0" y="66" fill="#64748b" font-family="sans-serif" font-size="10">Formula: PMT = P * [r(1+r)^n] / [(1+r)^n - 1]</text>
+    
+    <rect x="0" y="78" width="310" height="34" rx="6" fill="#0f172a" />
+    <text x="10" y="94" fill="#64748b" font-family="sans-serif" font-size="9">CRYPTOGRAPHIC SHA-256 HASH</text>
+    <text x="10" y="106" fill="#38bdf8" font-family="monospace" font-size="9">7d5f0b83e4a...6b1f2e8c9d01a2</text>
+
+    <text x="0" y="128" fill="#10b981" font-family="sans-serif" font-size="10" font-weight="600">STATUS: STATUTORILY VERIFIED COMPLIANT</text>
+  </g>
+
+  <!-- Audit Record 2 -->
+  <rect x="30" y="365" width="340" height="165" rx="16" fill="#1e293b" stroke="#334155" />
+  <g transform="translate(45, 382)">
+    <text x="0" y="14" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="700">ARITHMETIC EVALUATION AUDIT</text>
+    <text x="0" y="32" fill="#94a3b8" font-family="monospace" font-size="10">ID: CERT-CALC-2F8C9E4B-BASELINE-02</text>
+    <text x="0" y="50" fill="#f8fafc" font-family="monospace" font-size="12">25 * (14 + 6) / 2 + sqrt(144) = 262</text>
+    <text x="0" y="70" fill="#94a3b8" font-family="sans-serif" font-size="10">Standard: IEEE 754 Banker's Double Precision</text>
+    <text x="0" y="86" fill="#94a3b8" font-family="sans-serif" font-size="10">Relative Calculation Error: 0.000000000000%</text>
+
+    <rect x="0" y="98" width="310" height="34" rx="6" fill="#0f172a" />
+    <text x="10" y="114" fill="#64748b" font-family="sans-serif" font-size="9">CERTIFICATE SIGNATURE</text>
+    <text x="10" y="126" fill="#34d399" font-family="monospace" font-size="9">VERIFIED_CORRECT_MATHEMATICS_PASS</text>
+  </g>
+
+  <!-- Export Ledger Button -->
+  <g transform="translate(30, 545)">
+    <rect x="0" y="0" width="340" height="46" rx="12" fill="#10b981" />
+    <text x="170" y="28" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="13" font-weight="700">Export Certified Audit Ledger (JSON / CSV)</text>
+  </g>
+
+  <!-- Compliance Guarantee Box -->
+  <rect x="30" y="605" width="340" height="120" rx="14" fill="#0f172a" stroke="#334155" />
+  <g transform="translate(45, 622)">
+    <text x="0" y="14" fill="#fbbf24" font-family="sans-serif" font-size="11" font-weight="700">Regulatory Immutable Ledger</text>
+    <text x="0" y="34" fill="#94a3b8" font-family="sans-serif" font-size="10">Each calculation generates an immutable cryptographic</text>
+    <text x="0" y="48" fill="#94a3b8" font-family="sans-serif" font-size="10">checksum proving calculation inputs and outputs</text>
+    <text x="0" y="62" fill="#94a3b8" font-family="sans-serif" font-size="10">have zero tampering, fully acceptable for corporate audits.</text>
+    <text x="0" y="82" fill="#10b981" font-family="sans-serif" font-size="10" font-weight="600">GDPR & CCPA Compliant: 100% Client-Side Local</text>
+  </g>
+
+  <!-- Home Indicator & Copyright Label -->
+  <rect x="145" y="744" width="110" height="4" rx="2" fill="#475569" />
+  <text x="200" y="764" text-anchor="middle" fill="#64748b" font-family="sans-serif" font-size="9">Copyright © 2026 Sushant Mishra. All Rights Reserved.</text>
+</svg>

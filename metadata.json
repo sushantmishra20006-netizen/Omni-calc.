@@ -1,0 +1,6 @@
+{
+  "name": "OmniCalc Compliance Suite",
+  "description": "Copyright © 2026 Sushant Mishra. All Rights Reserved. Precision calculation & currency suite with TILA, IEEE 754 precision, cryptographic audit seals, and multi-currency converter authored and owned by Sushant Mishra (sushantmishra20006@gmail.com).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

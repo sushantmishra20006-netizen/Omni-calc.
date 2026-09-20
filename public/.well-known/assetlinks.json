@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.omnicalc.compliance",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7D:0F:52:AB:E7:48:9A:07:96:A8:69:B3:28:9B:4C:E6:B9:4C:EB:48:A2:93:33:04:78:E8:4A:22:98"
+      ]
+    }
+  }
+]
